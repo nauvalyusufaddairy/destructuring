@@ -1,79 +1,66 @@
-export const sliderItems = [
-    {
-      id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
-      title: "SUMMER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "f5fafd",
+const simpleDestructuring = [
+  {
+    id: 1,
+    name: "P-51 Mustang",
+    engine: "Allison V12 2 Stage Centrifugal Turbo",
+    topSpeed: "482 MPH",
+    armament: {
+      gun: "6x Browning MHB2 12.4mm",
+      dropable:
+        "2x dropable fueltank approx 90 gal each or 2x dropable 500 lbs RDX4 bombs",
     },
-    {
-      id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fcf1ed",
+  },
+  {
+    id: 2,
+    name: "FW 109 Blitz Jaeger",
+    engine: "BMW 413 Up-side-down V12 1 Stage Centrifugal Turbo",
+    topSpeed: "405 MPH",
+    armament: {
+      gun: "2x MG 152 20mm + 2x MG 15 7.62mm",
+      dropable:
+        "2x dropable fueltank approx 210 gal each or 2x dropable 800 lbs Conv. bombs",
     },
-    {
-      id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fbf0f4",
+  },
+  {
+    id: 3,
+    name: "ME 190 Arrow",
+    engine: "BMW 004 ",
+    topSpeed: "425 MPH",
+    armament: {
+      gun: "2x MG 152 20mm + 2x MG 15 7.62mm",
+      dropable:
+        "2x dropable fueltank approx 210 gal each or 2x dropable 800 lbs Conv. bombs",
     },
-  ];
+  },
+];
 
-  export const categories = [
-    {
-      id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
-      cat:"women"
+const complexDestructuring = {
+  sdfsesdfsdf: {
+    name: "Sherman M4",
+    engine: "ford GAA V8 500PS",
+    topSpeed: "28 MPH",
+    armament: {
+      cannon: "76mm L/21 ",
+      gun: "1x Coaxial Browning M2",
     },
-    {
-      id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
-      cat:"coat"
+  },
+  dgsderwewearas: {
+    name: "Tiger I",
+    engine: "Maybach HL245P 698PS",
+    topSpeed: "31 MPH",
+    armament: {
+      cannon: "88mm pak 8.8 ",
+      gun: "1x Coaxial MG42",
     },
-    {
-      id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
-      cat:"jeans"
+  },
+  sdseeqwwerewr: {
+    name: "Tiger II",
+    engine: "Maybach HL251P 900PS",
+    topSpeed: "28 MPH",
+    armament: {
+      cannon: "88mm pak 8.8 ",
+      gun: "1x Coaxial MG42",
     },
-  ];
-
-  export const popularProducts = [
-    {
-      id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
-    },
-    {
-      id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
-    },
-    {
-      id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
-    },
-    {
-      id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
-    },
-    {
-      id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
-    },
-    {
-      id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
-    },
-    {
-      id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
-    },
-    {
-      id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
-    },
-  ]
+  },
+};
+export { simpleDestructuring, complexDestructuring };
